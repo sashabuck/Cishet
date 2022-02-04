@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+<style>
+
+    .star-five {
+      margin: 50px 0;
+      position: relative;
+	top: 70px;
+	left: 70px;
+      display: block;
+      color: black;
+      width: 0px;
+      height: 0px;
+      border-right: 100px solid transparent;
+      border-bottom: 70px solid black;
+      border-left: 100px solid transparent;
+      transform: rotate(35deg);
+    }
+    .star-five:before {
+      border-bottom: 80px solid black;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -45px;
+      left: -65px;
+      display: block;
+      content: '';
+      transform: rotate(-35deg);
+
+    }
+    .star-five:after {
+      position: absolute;
+      display: block;
+      color: black;
+      top: 3px;
+      left: -105px;
+      width: 0px;
+      height: 0px;
+      border-right: 100px solid transparent;
+      border-bottom: 70px solid black;
+      border-left: 100px solid transparent;
+      transform: rotate(-70deg);
+      content: '';
+    }
+.star-five:hover {color: #ffcccb;}
+
+        .cross {
+      background: black;
+      height: 150px;
+      position: relative;
+	top: -90px;
+	left: 600px;	
+      width: 20px;
+    }
+    .cross:after {
+      background: black;
+      content: "";
+      height: 20px;
+      left: -40px;
+      position: absolute;
+      top: 40px;
+      width: 100px;
+    }
+.cross:hover {color: #ffcccb;}
+
+
+header {
+font-family: 'Abril Fatface', cursive;
+color: red;
+font-size: 74px}
+
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+body {
+background: repeating-linear-gradient(
+35deg, 
+black 0px, 
+white 20px, 
+white 20px, 
+white 40px
+);
+}
+</style>
+
+<header> Welcome to Hell!!!</header>
+<body></body>
+<div class="star-five"></div>
+<div class="cross"></div>
+<a href="https://www.powerlanguage.co.uk/wordle/"><img src="mcdodobrain.png" class="mcdodo" alt="A McDonald's Kid's Meal stringing his extended tongue like it's a violin" >
+</a>
+
+</html>
+
+
+
